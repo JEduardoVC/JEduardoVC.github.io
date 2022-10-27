@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeceralogo {
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: #094660;
+}
+
+#cabeceralogo>div {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 45px;
+}
+
+#cabeceralogo h1 {
+    font: bold 54px Arial, sans-serif;
+    color: #FFFFFF;
+}
+
+.contenedor {
+    width: 60%;
+    margin: auto;
+}
+
+#articulosprincipales {
+    float: left;
+    width: 620px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#infoadicional {
+    float: right;
+    width: 280px;
+    padding: 20px;
+    background-color: #E7F1F5;
+    border-radius: 10px;
+}
+
+#infoadicional h1 {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.recuperar {
+    clear: both;
+}
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+}
+
+.numerodia {
+    font: bold 36px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nombredia {
+    font: 12px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+article h1 {
+    margin-bottom: 5px;
+    font: bold 30px Georgia, sans-serif;
+}
+
+#pielogo {
+    width: 96%;
+    padding: 2%;
+    background-color: #094660;
+    /*background-color: #FD9929;*/
+}
+
+#pielogo>div {
+    width: 960px;
+    margin: 0px auto;
+    /*background-color: #094660;*/
+    background-color: #FD9929;
+    border-radius: 10px;
+}
+
+.seccionpie {
+    float: left;
+    width: 270px;
+    padding: 25px;
+}
+
+.seccionpie h1 {
+    font: bold 20px Arial, sans-serif;
+}
+
+.seccionpie p {
+    margin-top: 5px;
+}
+
+.seccionpie a {
+    font: bold 16px Arial, sans-serif;
+    color: #666666;
+    text-decoration: none;
+}
+
+.seccionpie {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav {
+    width: 100%;
+    background-color: #FD9929;
+}
+
+.navegacion {
+    width: 50%;
+    margin: auto;
+    background-color: #FD9929;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40px;
+    text-align: center;
+}
+
+.btn-navegacion {
+    background-color: #FD9929;
+    font: Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    width: 50%;
+}
+
+.btn-navegacion:hover {
+    background-color: #094660;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.titulo{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.problematica{
+    margin: 20px 0;
+    
+}
+
+span{
+    font-weight: 600;
+}
+
+.formulario{
+    margin-top: 1rem;
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.label-formulario{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.input-formulario{
+    border: solid 1px #094660;
+    border-radius: 0.2rem;
+}
+
+.btn-principal{
+    background-color: #FD9929;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.btn-principal:hover{
+    background-color: #094660;
+    cursor: pointer;
+    color: #E7F1F5;
+}
+
+.titulos{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #094660;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.datos{
+    background-color: #FD9929;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.error{
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #ffb6a6;
+    font-size: 1.2rem;
+    border-left: solid 5px red;
+}
+
+.btn-limpiar{
+    margin-top: 2rem;
+}
