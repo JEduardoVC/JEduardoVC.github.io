@@ -19,25 +19,45 @@
         <div class="navegacion">
             <div>
                 <form action="/">
-                    <button class="btn-navegacion">Principal</button>
+                    <button class="btn-navegacion">Inicio</button>
                 </form>
             </div>
             <div>
                 <form action="practica_01.html">
-                    <button class="btn-navegacion">Practica 1</button>
+                    <button class="btn-navegacion">Depreciacion</button>
                 </form>
             </div>
             <div>
                 <form action="practica_02.html">
-                    <button class="btn-navegacion">Practica 2</button>
+                    <button class="btn-navegacion">Triangulo de pascal</button>
                 </form>
             </div>
             <div>
                 <form action="practica_03.html">
-                    <button class="btn-navegacion">Practica 3</button>
+                    <button class="btn-navegacion">Conversion</button>
                 </form>
             </div>
         </div>
     </nav>
+    <div class="contenedor">
+        <div class="text-center titulo">
+            <h1>Convertir de numero a letras</h1>
+        </div>
+        <div class="problematica">
+            <p class="text-justify introduccion">
+                Esta práctica esta orientada a la conversion/transformacion de un numero entero y no negativo 
+                a su mismo valor en letra. 
+            </p>
+        </div>
+        <div class="campo">
+            <label class="label-formulario" for="numero">Numero entero: </label>
+            <input class="label-input" type="number" min="0" id="numero" placeholder="Ingrese el numero entero">
+        </div>
+        <button type="button" id="convertir" class="btn-principal">Convertir</button>
+        <div id="alertas" class="alertas"></div>
+        <div class="letras" id="letras"></div>
+        <button class="btn-principal btn-limpiar" type="button" id="eliminar_letras">Limpiar</button>
+    </div>
 </body>
+<script src="src/js/app.js"></script>
 </html>

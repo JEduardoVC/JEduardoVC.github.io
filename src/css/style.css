@@ -162,7 +162,7 @@ nav {
     padding: 5px;
     text-align: center;
     height: 40px;
-    width: 50%;
+    width: 60%;
 }
 
 .btn-navegacion:hover {
@@ -194,7 +194,7 @@ span{
     margin-top: 1rem;
 }
 .campo{
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 .label-formulario{
     font-size: 1rem;
@@ -252,5 +252,26 @@ span{
 }
 
 .btn-limpiar{
+    margin: 2rem 0rem;
+}
+.introduccion{
+    font-size: 24px;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.triangulo{
     margin-top: 2rem;
+    font-size: 1.5rem;
+    border: solid 2px #094660;
+    border-radius: 0.5rem;
+}
+.text-letras{
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: solid 5px green;
+    border-right: solid 5px green;
 }
